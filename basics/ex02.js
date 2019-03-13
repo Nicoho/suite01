@@ -13,6 +13,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+function retParam(number) {
+  return number;
+}
 
 /*
   Test 1

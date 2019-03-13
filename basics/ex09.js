@@ -6,6 +6,16 @@
 */
 
 //  écrire votre code sous ce commentaire
+function boostedEvenAddition (tableau){
+    let resultat = 0;
+  for ( let i=0; i < tableau.length; i++){
+    if (tableau[i]%2 === 0) {
+      resultat = resultat + tableau[i];
+    }
+  }
+  return resultat
+}
+
 
 /*
   Test 1

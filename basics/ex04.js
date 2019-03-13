@@ -8,6 +8,14 @@
 */
 
 //  écrire votre code sous ce commentaire
+function isEven (number) {
+  if (number%2 ===0){
+    return 1
+  } else {
+    return 0
+  }
+}
+
 
 /*
   Test 1

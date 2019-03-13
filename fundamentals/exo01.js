@@ -9,7 +9,14 @@
 */
 
 //  écrire votre code sous ce commentaire
+const age = 4
+console.log(age)
 
+const name = 'bob'
+console.log(name)
+
+const isAGeek = true
+console.log(isAGeek)
 
 
 /*

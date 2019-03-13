@@ -6,7 +6,13 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+function boostedAddition (tableau) {
+  let = resultat = 0;
+  for (let i = 0; i < (tableau.length); i +=1) {
+    resultat = resultat + tableau[i];
+  }
+  return resultat;
+}
 /*
   Test 1
   Résultat attendu : 15

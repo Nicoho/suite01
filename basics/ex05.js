@@ -8,7 +8,13 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+ function isEvenConcat (number) {
+  if (number%2 ===0){
+    return number + ' est pair'
+    } else {
+    return number + ' est impair'
+  }
+ }
 /*
   Test 1
   Résultat attendu : "6 est pair"

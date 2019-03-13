@@ -11,7 +11,9 @@ let pseudo = 'unknown';
 let isLevelMax = false;
 //  écrire votre code sous ce commentaire
 
-
+level = 2;
+pseudo = 'Bob';
+let isLevelMax = true;
 
 /*
   Pour tester ce code, aller sur https://jsbin.com/?js,console

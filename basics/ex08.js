@@ -14,6 +14,18 @@
 */
 
 //  écrire votre code sous ce commentaire
+function isAllEven (tableau){
+  let i = 0
+  let resultat = 1;
+  while (i < tableau.length){
+    if (tableau[i]%2 !== 0) {
+      resultat = 0;
+          break;
+    } 
+    i += 1;
+  }
+  return resultat
+}
 
 /*
   Test 1
